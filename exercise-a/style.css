@@ -1,0 +1,38 @@
+h1 {
+    font-weight: 300;
+    font-family: Roboto,  sans-serif;
+    text-align: center;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+thead {
+     height: 2rem;
+     text-align: left;
+     color:#1db954;
+     background-color:#d3d3d3;
+     border-collapse: collapse;
+}
+
+table th,
+table td {
+    border: 1px solid #d3d3d3;
+    padding: .5em;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+table tbody tr:nth-child(1) td {
+    background-color: pink;
+}
+
+table tbody tr:nth-child(2) td,
+table tbody tr:nth-child(4) td {
+    background-color: #eee;
+}
